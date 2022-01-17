@@ -1,0 +1,56 @@
+@media (max-width: 480px) {
+
+    section{
+        padding: 30px 10px 50px 10px;
+
+    }
+    
+    .ham{
+        display: inline;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .hero{
+        overflow: visible;
+    }
+
+    .cta-section{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+        /* overflow: visible; */
+    
+    }
+
+    .shoe{
+
+        transform: scale(0.8);
+    
+    }
+
+    .cta{
+        width: 100%;
+    
+    }
+
+    .cta > span:nth-child(1){
+        font-size: 18vw;
+        line-height: 10vh;
+    }
+
+    .hor-scroll{
+        overflow-y: hidden;
+        overflow-x: auto ;
+    }
+
+    .slider{
+        left: 280vw;
+    }
+
+  }
